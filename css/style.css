@@ -12,7 +12,7 @@
 /* SPECIFIC CHANGES */
 
 /* Header Section */
-header{
+header.bg-img-container{
     height: 10rem;
     background-color: #4ea0ff;
     background-image: url('../img/pattern.png');
@@ -22,7 +22,7 @@ header{
     position: relative;
 }
 
-header img{
+header.bg-img-container img{
     width: 20%;
     position: absolute;
     bottom: 5%;
