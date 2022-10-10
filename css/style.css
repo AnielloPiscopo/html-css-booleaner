@@ -1,4 +1,9 @@
 /* GENERIC CHANGES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* Class Changes */
 
@@ -8,7 +13,17 @@
 
 /* Header Section */
 header{
-    background-color: blue;
+    height: 10rem;
+    background-color: #4ea0ff;
     background-image: url('../img/pattern.png');
-    background-size: contain;
+    background-size: cover;
+    background-position: 80% 20%;
+    background-repeat: repeat;
+    position: relative;
+}
+
+header img{
+    width: 20%;
+    position: absolute;
+    bottom: 5%;
 }
