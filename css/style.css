@@ -8,24 +8,33 @@ a{
 
 /* Class Changes */
 .title{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .text-color_grey{
     color: #b6b6b6;
     font-weight: bold;
+    font-size: 1.1rem;
 }
 
-.timeline{
-    font-size: 0.8rem;
+.small-text{
+    font-size: 0.9rem;
 }
+
+/* Combinations */
+.imgs-container img{
+    width: 48%;
+    height: 100%;
+}
+
+
 
 /* SPECIFIC CHANGES */
 
 /* Header Section */
 header.bg-img-container{
-    height: 5rem;
+    height: 7rem;
     width: 100%;
     background-color: #4ea0ff;
     background-image: url('../img/pattern.png');
@@ -36,7 +45,7 @@ header.bg-img-container{
 }
 
 header.bg-img-container img{
-    width: 20%;
+    width: 17%;
     position: absolute;
     bottom: 5%;
 }
