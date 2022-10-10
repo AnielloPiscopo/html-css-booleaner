@@ -1,0 +1,14 @@
+/* GENERIC CHANGES */
+
+/* Class Changes */
+
+
+
+/* SPECIFIC CHANGES */
+
+/* Header Section */
+header{
+    background-color: blue;
+    background-image: url('../img/pattern.png');
+    background-size: contain;
+}
