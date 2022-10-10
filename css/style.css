@@ -1,5 +1,11 @@
 /* GENERIC CHANGES */
 
+/* Tag HTML */
+a{
+    color: #80cdef;
+    text-decoration: none;
+}
+
 /* Class Changes */
 .title{
     font-size: 2rem;
