@@ -6,6 +6,19 @@ a{
     text-decoration: none;
 }
 
+th{
+    color: white;
+    background: #20a9e5;
+}
+
+tr:nth-child(odd){
+    background-color: #b1e5f2;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
 /* Class Changes */
 .title{
     font-size: 3rem;
@@ -13,12 +26,13 @@ a{
 }
 
 .text-color_grey{
-    color: #b6b6b6;
+    color: #a7a7a7;
     font-weight: bold;
     font-size: 1.1rem;
 }
 
 .small-text{
+    color: #b6b6b6;
     font-size: 0.9rem;
 }
 
@@ -48,4 +62,9 @@ header.bg-img-container img{
     width: 17%;
     position: absolute;
     bottom: 5%;
+}
+
+/* Footer Section */
+footer .img-container img{
+    display: block;
 }
