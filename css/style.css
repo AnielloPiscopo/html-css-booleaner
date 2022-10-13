@@ -1,14 +1,28 @@
-/* GENERIC CHANGES */
+/** GENERIC CHANGES */
 
-/* Tag HTML */
+/*! Tag HTML */
 a{
     color: #80cdef;
     text-decoration: none;
 }
 
+h1{
+    font-size: 3.5rem;
+    margin-bottom: .5rem;
+}
+
+figcaption{
+    font-size: .9rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+
 th{
     color: white;
     background: #20a9e5;
+    text-align: left;
 }
 
 tr:nth-child(odd){
@@ -19,12 +33,7 @@ tr:nth-child(even){
     background-color: white;
 }
 
-/* Class Changes */
-.title{
-    font-size: 3rem;
-    font-weight: bold;
-}
-
+/*! Class Changes */
 .text-color_grey{
     color: #a7a7a7;
     font-weight: bold;
@@ -36,35 +45,35 @@ tr:nth-child(even){
     font-size: 0.9rem;
 }
 
-/* Combinations */
-.imgs-container img{
-    width: 48%;
-    height: 100%;
+
+
+/** SPECIFIC CHANGES */
+
+/*! Header Section */
+header#main-header{
+    background-image: url(../img/pattern.png);
+    height: 9rem;
+    background-size: 550px;
+    background-color: #71bcf2;
 }
 
-
-
-/* SPECIFIC CHANGES */
-
-/* Header Section */
-header.bg-img-container{
-    height: 7rem;
-    width: 100%;
-    background-color: #4ea0ff;
-    background-image: url('../img/pattern.png');
-    background-size: cover;
-    background-position: 80% 20%;
-    background-repeat: repeat;
-    position: relative;
+#logo{
+    height: 5rem;
+    padding-top: 3.5rem;
 }
 
-header.bg-img-container img{
-    width: 17%;
-    position: absolute;
-    bottom: 5%;
+/*! Footer */
+footer .img-container{
+    width: 13rem;
+    height: 13rem;
+    color: white;
+    background-position: center;
 }
 
-/* Footer Section */
-footer .img-container img{
-    display: block;
+#img-monitor{
+    background-image: url('../img/monitor.jpg');
+}
+
+#img-graph{
+    background-image: url('../img/graph.jpg');
 }
